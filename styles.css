@@ -204,6 +204,9 @@ img{
     display: flex;
     margin-bottom: 30px;
 }
+.like-comment{
+    display: flex;
+}
 .post-details p{
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -228,4 +231,42 @@ img{
 }
 .post-details{
     margin-bottom: 10px;
+}
+
+.like-comment{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.like-button{
+    
+    display: flex;
+    align-items: center;
+    height: 1.8vh;
+    max-width: 50vw;
+    align-items: center;
+    
+   
+   
+   
+}
+.comment-button{
+  height: 2vh;
+    max-width: 20px;
+}
+.like{
+  display: flex;
+  align-items: center;
+ 
+
+}
+.despartitor{
+  width: 4vw;
+}
+.liniuta{
+  margin-left: 20px;
+}
+.comment{
+  display: flex;
+  align-items: center;
 }
